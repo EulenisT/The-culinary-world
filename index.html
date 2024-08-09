@@ -1,0 +1,268 @@
+<!--TARAZONA EULENIS-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuisine</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <section class="section1">
+    <h1 class="titre">Le monde de la cuisine</h1>
+    <main>
+      <header>
+        <div class="div1">
+          <nav>
+            <p>
+              <a href="index.html" class="nav1">Accueil</a>
+              <a href="commande.html" class="nav1">Bon de commande</a>
+              <a href="politique.html" class="nav1">RGPD</a>
+              <input type="text" class="nav1 input" placeholder="Rechercher" name="Rechercher">
+              <button type="submit" class="nav1 button">Envoyer</button>
+           </p>
+            <hr>
+          </nav>
+      </div>
+    </header>
+  </section> 
+  <aside> 
+   <div class="div1">
+     <h6>Accueil. Tous les profuits</h6>
+     <h3 class="cass">Casserole Tefal</h3>
+     <hr>
+   </div>
+ </aside> 
+
+ <section class="formulaire">
+  <h3 class="filtre">FILTRE PAR</h3>
+ 
+   <form>
+
+    <h5 class="titre-formulaire">PRIX</h5>
+    <h6 class="euro"> Min 27€ - - - - - - - Max 293€</h6>
+    <input type="range" class="range" name="rango"
+    min="27€" max="293€" step="1">
+
+    <div class="div-marque">
+      <h5 class="titre-formulaire">MARQUE</h5>
+      <input type="text" class="chercher-marque" placeholder="Marque" required>
+      <button type="submit" class="chercher" >Chercher</button>
+    </div>
+    <br>
+    <div class="option1">
+      <label for="Tefal">
+        <input id="Tefal" type="checkbox" value="Tefal" name="Marque" checked>Tefal
+      </label>
+      <br>
+      <label for="Générique">
+        <input id="Générique" type="checkbox" value="Générique" name="Marque">Générique
+      </label>
+    </div>
+
+    <h5 class="titre-formulaire">VENDEUR</h5>
+    <div class="option1">
+      <label for="Vendeur">
+        <input id="Vendeur" type="checkbox" value="Fnac.be" name="Vendeur">Fnac.be
+      </label>
+    </div>
+
+    <p><label>Vendeurs partenaires:
+      <select id="Vendeur-option">
+        <option value=""></option>
+        <option value="Fnac.be">Fnac.be</option>
+        <option value="asDiscount">asDiscount</option>
+        <option value="FIVE">FIVE</option>
+        <option value="Stortle">Stortle</option>
+        <option value="Zoomici">Zoomici</option>
+      </select>
+    </p></label>
+
+      <h5 class="titre-formulaire">TYPE DE CASSEROLERIE</h5>
+      <div class="option1">
+        <label for="type-cas">
+          <input id="type-cas" type="checkbox" value="Casserole" name="type">Casserole
+        </label>
+        <br>
+        <label for="type-poe">
+          <input id="type-poe" type="checkbox" value="Poele et sauteuse" name="type">Poele
+        </label>
+      </div>
+        <h5 class="titre-formulaire">CAPACITE</h5>
+        <div class="option1">
+          <label for="capacite">
+            <input id="capacite" type="checkbox" value="1500  ml" name="capacite">1500 ml
+          </label>
+          <br>
+          <label for="capacite1">
+            <input id="capacite1" type="checkbox" value="2100 ml" name="capacite">2100 ml
+          </label>
+          <br>
+          <label for="capacite2">
+            <input id="capacite2" type="checkbox" value="3000  ml" name="capacite">3000 ml
+          </label>
+          <br>
+          <label for="capacite3">
+            <input id="capacite3" type="checkbox" value="2800  ml" name="capacite">2800 ml
+          </label>
+          <br>
+          <label for="capacite4">
+            <input id="capacite4" type="checkbox" value="5000  ml" name="capacite">5000 ml
+          </label>
+          <br>
+        </div>
+
+          <h5 class="titre-formulaire">MATIERE PRINCIPALE</h5>
+          <div class="option1">
+            <label for="matiere">
+              <input id="matiere" type="checkbox" value="Aluminum" name="matiere">Aluminum
+            </label>
+            <br>
+              <label for="matiere1">
+                <input id="matiere1" type="checkbox" value="Inox" name="matiere">Inox
+              </label>
+            <br>
+            <label for="matiere2">
+              <input id="matiere2" type="checkbox" value="Acier inoxydable" name="matiere">Acier inoxydable
+            </label>
+          </div>
+
+          <br>
+
+          <h5 class="titre-formulaire">COLORIS</h5>
+          <div class="option1">
+            <label for="col">
+              <input id="col" type="checkbox" value="Noir" name="Colr">Noir
+            </label>
+            <br>
+            <label for="col1">
+              <input id="col1" type="checkbox" value="Rouge" name="Colr">Rouge
+            </label>
+            <br>
+            <label for="col2">
+              <input id="col2" type="checkbox" value="blue" name="Colr">Blue
+            </label>
+          </div>
+
+   </form>
+ </section>
+
+  <section class="section2"> 
+    <div class="div3">
+      <h5>casserole tefal(10)</h5>
+      <h3 class="titre-casserole">Casserole Tefal (noir)</h3>
+     <div class="img2" style="float: left">
+        <img src="media/casserole2.jpg" class="img-casserole" alt="Sarten1">
+        
+     </div>
+      <h2 class="prix">54€</h2>
+      <p class="description"><ul> <li> ALUMINIUM 100% RECYCLÉ. </li> <br>
+        <li>ÊTEMENT TITANIUM ANTIADHÉSIF il facilite la cuisson et le nettoyage. </li></ul></p>
+      <button type="submit" class="button-casserole">Ajouter au panier</button>
+      
+    </div>
+    <hr>
+    <div class="div3">
+      <h3 class="titre-casserole">Casserole Tefal (blue)</h3>
+      <div class="img2" style="float: left">
+        <img src="media/casserole1.jpg" class="img-casserole" alt="Sarten2">
+      </div>
+      <h2 class="prix">104€</h2>
+      <p class="description"><ul> <li> ALUMINIUM 100% RECYCLÉ.</li> <br>
+        <li>ÊTEMENT TITANIUM ANTIADHÉSIF il facilite la cuisson et le nettoyage. </li></ul>  </p>
+      <button type="submit" class="button-casserole">Ajouter au panier</button>
+    </div>
+    <hr>
+
+    <div class="div3">
+        <h3 class="titre-casserole">Set - casserole Tefal (noir)</h3>
+        <div class="img2" style="float: left">
+         <img src="media/casserole3.jpg" class="img-casserole" alt="Sarten3">
+         
+        </div>
+        <h2 class="prix">190€</h2>
+        <p class="description">
+          <ul>
+            <li>ANTIADHESIF RESISTANT AUX RAYURES : une résistance maximale qui dure jusqu'à 6 fois plus longtemps.</li> 
+            <li>ECO-RESPONSABLE : produit recyclable avec revêtement antiadhésif sûr (sans PFOA, ni plomb).</li>
+          </ul>
+        </p>
+        <button type="submit" class="button-casserole">Ajouter au panier</button>
+    </div>
+    <hr>
+    <div class="div3">
+        <h3 class="titre-casserole">Casserole Tefal (noir)</h3>
+        <div class="img2" style="float: left">
+         <img src="media/casserole4.jpg" class="img-casserole" alt="Sarten4">
+        </div>
+        <h2 class="prix">40€</h2>
+        <p class="description"><ul><li> ANTIADHESIF DURABLE : une résistance maximale.</li></ul></p>
+        <button type="submit" class="button-casserole">Ajouter au panier</button>
+    </div>
+    <hr>
+    <div class="div3">
+      <h3 class="titre-casserole">Set - casserole Tefal (noir)</h3>
+       <div class="img2" style="float: left">
+        <img src="media/casserole5.jpg" class="img-casserole" alt="Sarten5">
+       </div>
+      <h2 class="prix">145€</h2>
+      <p class="description"> <ul>
+        <li>ANTIADHESIF RESISTANT AUX RAYURES : une résistance maximale qui dure jusqu'à 6 fois plus longtemps.</li> 
+        <li>ECO-RESPONSABLE : produit recyclable avec revêtement antiadhésif sûr (sans PFOA, ni plomb).</li>
+      </ul>  </p>
+      <button type="submit" class="button-casserole">Ajouter au panier</button>
+    </div>
+    <hr>
+    <div class="div3">
+      <h3 class="titre-casserole">Set - casserole Tefal (noir)</h3>
+      <div class="img2" style="float: left">
+       <img src="media/casserole6.jpg" class="img-casserole" alt="Sarten6">
+      </div>
+      <h2 class="prix">130€</h2>
+      <p class="description"><ul> <li> La plaque de cuisson au four, sur la table, dans le réfrigérateur, les produits sont polyvalents mais aussi empilables pour un rangement optimal et un gain de place dans vos placards. </li></ul></p>
+      <button type="submit" class="button-casserole">Ajouter au panier</button>
+  </div>
+  <hr>
+  <div class="div3">
+      <h3 class="titre-casserole">Set - casserole Tefal (rouge)</h3>
+      <div class="img2" style="float: left">
+       <img src="media/casserole7.jpg" class="img-casserole" alt="Sarten7">
+      </div>
+
+      <h2 class="prix">110€</h2>
+      <p class="description"><ul> <li> La plaque de cuisson au four, sur la table, dans le réfrigérateur, les produits sont polyvalents mais aussi empilables pour un rangement optimal et un gain de place dans vos placards. </li></ul> </p>
+      <button type="submit" class="button-casserole">Ajouter au panier</button>
+  </div>
+  <hr>
+  <div class="div3">
+    <h3 class="titre-casserole"> Casserole Tefal</h3>
+    <div class="img2" style="float: left">
+     <img src="media/casserole8.jpg" class="img-casserole" alt="Sarten8">
+    </div>
+    <h2 class="prix">40€</h2>
+    <p class="description"><ul><li>
+      Grâce à son concept empilable et peu encombrant, les ustensiles de cuisine s'intègrent facilement dans vos armoires, tiroirs et étagères.
+    </li></ul></p>
+    <button type="submit" class="button-casserole">Ajouter au panier</button>
+  </div> 
+  <hr> 
+  <div class="div3">
+    <h3 class="titre-casserole">Casserole Tefal (rouge)</h3>
+    <div class="img2" style="float: left">
+     <img src="media/casserole9.jpg" class="img-casserole" alt="Sarten9">
+    </div>
+    <h2 class="prix">20€</h2>
+    <p class="description"><ul><li> ANTIADHESIF DURABLE : une résistance maximale.</li></ul> </p>
+    <button type="submit" class="button-casserole">Ajouter au panier</button>
+  </div>
+  <hr>
+</section>
+</main>
+
+<footer>
+  <p><small><strong> © Le monde de la cuisine 2022</strong></small></p>
+</footer>
+
+</body>
+</html>

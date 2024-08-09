@@ -1,0 +1,142 @@
+
+
+
+.titre {
+    color: rgba(0, 0, 0, 0.733);
+    padding-top: 2%;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    padding-left: 50px;
+    background-color: beige;
+
+}
+
+.nav1 {
+    background: rgba(131, 111, 0, 0.74);
+    color: aliceblue;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-color: rgb(219, 214, 170);
+}
+
+.input {
+    background: white;
+    border-color: rgba(219, 219, 214, 0.788);
+    color: #000;
+}
+
+.button {
+    background: rgba(77, 51, 12, 0.795);
+    border-color: rgb(184, 179, 0.788);
+}
+
+.button:hover {
+    background: beige;
+    color: #000;
+}
+
+
+
+.section2 {
+    float: right;  
+    width: 70%;
+      
+}
+
+.description {
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.formulaire {
+    float: left; 
+    width: 20%;   
+}
+
+.img-casserole {
+    width: 185px;
+    height: 125px;
+    padding-right: 30px;
+
+}
+
+
+.prix {
+left: 2px;
+position: relative;
+}
+
+.description {
+text-align: left;
+}
+
+.button-casserole {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: #e0c56d;
+    border-radius: 6px;
+    border: 2px solid #9c4a1b5e;
+}
+
+.button-casserole:hover {
+    background-color: beige;
+    color: #000;
+}
+
+
+footer{
+ font-family: 'Satisfy', cursive;
+ clear: both;
+
+}
+
+
+.filtre {
+    
+    
+    color: rgb(255, 255, 255);
+    padding-top: 2%;
+    padding-left: 50px;
+    background-color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+.boncmd {
+    font-family: 'Satisfy', cursive;
+}
+
+.table1{
+    background-color: #fffceb;
+}
+
+.for{
+    background-color: rgba(196, 191, 100, 0.719);
+}
+
+.priixx{
+    background-color: rgba(196, 191, 100, 0.719);
+}
+
+.quan {
+    background-color: rgba(196, 191, 100, 0.719);
+}
+
+.tot {
+    background-color: rgba(196, 191, 100, 0.719);
+}
+
+.totalfac {
+    background-color: rgba(196, 191, 100, 0.719);
+}
+
+
+.total {
+    color: #ff7b00;
+    background-color: rgba(196, 191, 100, 0.719);
+}
